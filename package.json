@@ -4,7 +4,7 @@
   "description": "nuestro primer proyecto nodejs",
   "main": "index.html",
   "scripts": {
-	"dev": "lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,11 @@
   "homepage": "https://github.com/coutolourdes1/Coursera-Bootstrap4#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
   }
 }
