@@ -6,59 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Hoteles</title>
+    <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+    <title>Arte Lourdes</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"> Arte Lourdes </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active"><a class="nav-link" href="about.html">Nosotros </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones </a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto </a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron">
-        <h1 style="text-align: center;"> Hoteles </h1>
+        <h1 style="text-align: center;"> Bienvenidos a Arte Lourdes </h1>
+        <p style="text-align: center;"> Hecho a mano, hecho con amor </p>
     </div>
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page"> Home </li>
+            </ol>
+        </nav>
         <div class="row">
             <div class="col">
-                <h3 style="text-align: center;"> ¿Como funciona? </h3>
-                <p> Busque los hoteles de acuerdo a su preferencia. </p>
+                <h3 style="text-align: center;"> ¿Como comprar? </h3>
+                <p> Para encargar una pintura, se solicita la sena del 50% </p>
             </div>
             <div class="col">
-                <h3 style="text-align: center;"> Reservas </h3>
-                <p> Seleccione el hotel a reservar y complete los datos solicitados. </p>
+                <h3 style="text-align: center;"> NO SE QUE PONER ACA </h3>
+                <p> </p>
             </div>
             <div class="col">
                 <h3 style="text-align: center;"> Formas de pago </h3>
-                <p> Tarjeta de crédito, débito o mercadopago. </p>
+                <p> Cuentas bancarias, depositos por abitab o red pagos, efectivo </p>
             </div>
         </div>
         <hr>
 
         <div class="d-flex flex-wrap flex-row-reverse">
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en Uruguay</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Uruguay </p>
+                <h4> Dipticos </h4>
+                <p> Acá podras ver los dipticos ya encargados </p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en Buenos Aires</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Buenos Aires </p>
+                <h4> Tripticos </h4>
+                <p> Acá podras ver los tripticos encargados </p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en Brasil</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Brasil </p>
+                <h4> Personalizados </h4>
+                <p> Acá podras ver los encagos personalizados </p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en Chile</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Santiago de Chile </p>
+                <h4> Especiales </h4>
+                <p> Acá podras ver los encargos especiales</p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en Bolivia</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Bolivia </p>
+                <h4> Nature </h4>
+                <p> Acá podras ver los encargos de naturaleza </p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
             <div class="card-hotel d-flex flex-column">
-                <h4> Hoteles en México</h4>
-                <p> Acá vas a encontrar los hoteles ubicados en Ciudad de México </p>
+                <h4> Minimal </h4>
+                <p> Acá podras ver los encargos minimalistas </p>
                 <button class="btn btn-reserva"> Buscar </button>
             </div>
         </div>
@@ -69,21 +93,21 @@
                 <a href="https://www.facebook.com"> Facebook </a>
                 <a href="https://www.instagram.com"> Instagram </a>
                 <a href="https://www.twitter.com"> Twitter </a>
-                <a href="https://www.google.com"> Google </a>
             </div>
             <div class="col-sm-5 d-flex flex-column">
                 <address>
                     <h3> Casa central </h3>
-                    Montevideo, Uruguay
+                    <span class="oi oi-home"></span> Montevideo, Uruguay
+                    <br>
+                    <span class="oi oi-phone"></span> +598 96 240 977
                 </address>
             </div>
             <div class="col d-flex flex-column">
                 <a href="https://www.nosotros.com"> Nosotros </a>
-                <a href="https://www.terminod.com"> Terminos y condiciones </a>
+                <a href="https://www.terminos.com"> Terminos y condiciones </a>
                 <a href="https://www.precios.com"> Precios </a>
                 <a href="https://www.contacto.com"> Contacto </a>
             </div>
-
         </div>
     </footer>
 
