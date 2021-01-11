@@ -20,8 +20,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros </a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Precios </a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"> Nosotros </a></li>
+                <li class="nav-item active"><a class="nav-link" href="precios.html">Precios </a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones </a></li>
                 <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto </a></li>
             </ul>
@@ -34,59 +34,50 @@
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol aria-label="breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html"> Home </a></li>
-                <li class="breadcrumb-item active"> Nosotros </li>
+                <li class="breadcrumb-item"><a href="index.html"> Home </a></li>
+                <li class="breadcrumb-item active" aria-current="page"> Precios </li>
             </ol>
         </nav>
-        <h1> Dejame tu comentario </h1>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-sm-6">
-                    <label for="nombre"> Nombre </label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label for="nombre"> Apellido </label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="nombre"> Email </label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su email">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-sm-9">
-                    <label for="nombre"> Domicilio </label>
-                    <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
-                </div>
-                <div class="form-group col-sm-3">
-                    <label for="nombre"> Departamento </label>
-                    <select id="departamento" class="form-control">
-                        <option> Montevideo </option>
-                        <option> Maldonado </option>
-                        <option> San Jose </option>
-                        <option> Rocha </option>
-                        <option> Soriano </option>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="comentario"> Comentario </label>
-                <textarea id="comentario" class="form-control" rows="10"></textarea>
-            </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck"> Quiero que me contacten </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary"> Enviar </button>
-    </div>
+        <div class="table-resposive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <th> Tipo de envío </th>
+                    <th> Montevideo </th>
+                    <th> Maldonado </th>
+                    <th> Rocha </th>
+                    <th> San Jose </th>
+                    <th> Soriano </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Standard </td>
+                        <td> $100 </td>
+                        <td> $120 </td>
+                        <td> $150 </td>
+                        <td> $180 </td>
+                        <td> $200 </td>
+                    </tr>
+                    <tr>
+                        <td> Express </td>
+                        <td> $150 </td>
+                        <td> $180 </td>
+                        <td> $200 </td>
+                        <td> $220 </td>
+                        <td> $250 </td>
+                    </tr>
+                    <tr>
+                        <td> Premium </td>
+                        <td> $200 </td>
+                        <td> $220 </td>
+                        <td> $250 </td>
+                        <td> $280 </td>
+                        <td> $300 </td>
+                    </tr>
 
+                </tbody>
+            </table>
+        </div>
     </div>
-    </form>
-    </div>
-
     <footer>
         <div class="row">
             <div class="col-sm-5 d-flex flex-column ">
