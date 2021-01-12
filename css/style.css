@@ -4,8 +4,12 @@
     margin-top: 50px;
 }
 
-.btn {
+#boton {
     background-color: rgb(235, 146, 31);
+}
+
+body {
+    background-color: rgba(253, 234, 208, 0.685);
 }
 
 footer {
@@ -27,4 +31,8 @@ footer {
 
 img {
     background: center center cover no-repeat fixed;
+}
+
+#portada {
+    width: 100%;
 }
