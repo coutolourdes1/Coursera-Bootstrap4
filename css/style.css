@@ -15,11 +15,12 @@ footer {
     margin-top: 10px;
 }
 
-.card-hotel {
+.card-obra {
     flex: 1 150px;
-    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
 }
 
 .btn-reserva {
     width: 100%;
+    border-right: 0px;
 }
