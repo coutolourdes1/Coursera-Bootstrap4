@@ -5,12 +5,12 @@
 }
 
 .btn {
-    background-color: rgb(183, 124, 250);
+    background-color: rgb(235, 146, 31);
 }
 
 footer {
     padding: 10px 10px 0 10px;
-    background-color: rgb(238, 203, 243);
+    background-color: rgb(226, 201, 154);
     margin-bottom: 1px;
     margin-top: 10px;
 }
@@ -23,4 +23,8 @@ footer {
 .btn-reserva {
     width: 100%;
     border-right: 0px;
+}
+
+img {
+    background: center center cover no-repeat fixed;
 }
