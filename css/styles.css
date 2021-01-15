@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: #f2d8a7;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+#boton {
+  background-color: #eb921f; }
+
+body {
+  background-color: rgba(253, 234, 208, 0.685); }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #e2c99a;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.card-obra {
+  flex: 1 150px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.btn-reserva {
+  width: 100%;
+  border-right: 0px; }
+
+img {
+  background: center center cover no-repeat fixed; }
+
+#portada {
+  width: 100%; }

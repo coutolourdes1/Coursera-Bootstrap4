@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <title>Arte Lourdes</title>
 </head>
@@ -21,7 +21,7 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">Home</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="about.html"> Quién soy </a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"> Nosotros </a></li>
                 <li class="nav-item"><a class="nav-link" href="precios.html"> Precios </a></li>
                 <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto </a></li>
             </ul>
@@ -159,7 +159,7 @@
                                 <p> Aquí veras los cuadros basados en el arte minimal</p>
                             </div>
                             <div class="col-3">
-                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> Encargar </button>
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="encargar"> Encargar </button>
                             </div>
                         </div>
                     </div>
@@ -225,9 +225,21 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <scrpit>
-        $(function(){ $("[data-toggle='tooltip']").tooltip(); }); $(function(){ $("[data-toggle='popover']").popover(); }); $('.carousel').carousel({ interval: 2000 })
-    </scrpit>
+    <script>
+        $(function() {
+            $("[data-toggle='tooltip']").tooltip();
+            $("[data-toggle='popover']").popover();
+            $('.carousel').carousel({
+                interval: 2000
+            });
+            $('#contacto').on('show.bs.modal', function(e) {
+                console.log('el modal se está mostrando');
+                $("#contacto").on('hidden.bs.modal', function(e) {
+                    $('#encargar').prop('disabled', true);
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

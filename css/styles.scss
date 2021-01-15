@@ -1,7 +1,13 @@
+$yellow: #f2d8a7;
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
 .jumbotron {
     background-color: $yellow;
     color: black;
-    margin-top: 50px;
+    @include margenes(50px, 0px);
 }
 
 #boton {
@@ -16,12 +22,12 @@ footer {
     padding: 10px 10px 0 10px;
     background-color: rgb(226, 201, 154);
     margin-bottom: 1px;
-    margin-top: 10px;
+    @include margenes(10px, 0px);
 }
 
 .card-obra {
     flex: 1 150px;
-    margin-top: 10px;
+    @include margenes(10px, 0px);
 }
 
 .btn-reserva {
